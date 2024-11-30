@@ -19,7 +19,7 @@ A simple, feature-rich task management application that provides CRUD operations
 ## Application Structure
 
 ### **Database Layer**
-- **Library:** `better-sqlite3` for efficient local storage.
+- **Library:** `idb` for efficient local storage.
 - **Schema:** Structured schema with all required task fields.
 
 ### **Service Layer**
@@ -35,7 +35,7 @@ A simple, feature-rich task management application that provides CRUD operations
 
 ## Technologies Used
 - **Frontend:** React, Tailwind CSS, Lucide React (icons)
-- **Backend:** better-sqlite3
+- **Backend:** Node.js and  IndexedDB
 - **Toast Notifications:** Custom or library-based implementation
 
 ---
